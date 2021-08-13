@@ -1,0 +1,56 @@
+
+   .yellow {
+    position: fixed;
+    left: 40%;
+    top: 48%;
+    z-index: 1;
+  }
+
+  .red {
+    position: fixed;
+    left: 50%;
+    top: 48%;
+    z-index: 1;
+  }
+
+  .green {
+    position: fixed;
+    left: 45%;
+    top: 50%;
+    z-index: 1;
+  }
+
+  .lime {
+    position: fixed;
+    left: 55%;
+    top: 47%;
+    z-index: 1;
+  }
+
+  .pink {
+    position: fixed;
+    left: 35%;
+    top: 47%;
+    z-index: 1;
+  }
+
+  .brown {
+    position: fixed;
+    left: 30%;
+    top: 45%;
+    z-index: 1;
+  }
+
+  .purple {
+    position: fixed;
+    left: 60%;
+    top: 45%;
+    z-index: 1;
+  }
+  
+  .white {
+    position: fixed;
+    left: 65%;
+    top: 43%;
+    z-index: 1;
+  }

@@ -1,5 +1,11 @@
 body, html{
     height: 100%;
+    margin: 0;
+  }
+
+  html{
+    overflow: hidden;
+    max-width: 100vw;
   }
   
   body{
@@ -11,11 +17,61 @@ body, html{
     background-color: #59a4a3;
     border-radius: 30%;
     box-shadow: 6px 6px 80px 110px #59a4a3;
-    height: 30%;
-    width: 100%;
+    height: 20%;
+    max-width: 100vw;
    }
 
    .crew {
        display: flex;
        
    }
+
+   .myNavbar{
+     height: 10%;
+     width: 100%;
+     background-color: #59a4a36d;
+   }
+
+   .victory {
+    font-family: 'Press Start 2P', cursive;
+    position: fixed;
+    left: 35%;
+    top: 30%;
+    color: #018bfb;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  .navtext{
+    color: white;
+  }
+
+  body:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #000, #000);
+    z-index: 30;
+    animation: animate 2s linear forwards;
+  }
+  @keyframes animate{
+    0%{
+      right: 0;
+    }
+    100%{
+      right: -200%;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .crew,.victory {
+      zoom: 60%;
+    }
+    .background {
+      zoom: .7;
+      margin-top: 10px;
+    }
+  }
