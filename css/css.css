@@ -1,0 +1,21 @@
+body, html{
+    height: 100%;
+  }
+  
+  body{
+    background-color: black;
+  }
+  
+  .background{
+    margin-top: 10px;
+    background-color: #59a4a3;
+    border-radius: 30%;
+    box-shadow: 6px 6px 80px 110px #59a4a3;
+    height: 30%;
+    width: 100%;
+   }
+
+   .crew {
+       display: flex;
+       
+   }
