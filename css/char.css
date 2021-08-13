@@ -54,3 +54,10 @@
     top: 43%;
     z-index: 1;
   }
+
+  .black {
+    position: fixed;
+    left: 25%;
+    top: 43%;
+    z-index: 1;
+  }
